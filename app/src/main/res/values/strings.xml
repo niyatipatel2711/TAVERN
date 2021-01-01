@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TAVERN</string>
+    <string-array name="Spinner_items">
+        <item>Location</item>
+        <item>Changa</item>
+        <item>Anand</item>
+        <item>Nadiad</item>
+        <!--<item>Changa - Female</item>
+        <item>Anand - Female</item>
+        <item>Nadiad - Female</item>-->
+    </string-array>
+    <string-array name="Spinner_items1">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

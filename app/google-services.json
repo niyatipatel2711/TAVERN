@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "425282895605",
+    "firebase_url": "https://authentication-12615.firebaseio.com",
+    "project_id": "authentication-12615",
+    "storage_bucket": "authentication-12615.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425282895605:android:7c88832b508d7978130fbc",
+        "android_client_info": {
+          "package_name": "com.example.tavern"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425282895605-habblpooeeh888rq19huou128ahmvjk1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOVhJYUVvy3MKbqHechgkyyI0XjgpF6JE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425282895605-habblpooeeh888rq19huou128ahmvjk1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

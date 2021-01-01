@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tavern">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".switchPanel"></activity>
+        <activity android:name=".gAnand13" />
+        <activity android:name=".gAnand12" />
+        <activity android:name=".gAnand11" />
+        <activity android:name=".gAnand10" />
+        <activity android:name=".gAnand9" />
+        <activity android:name=".gAnand8" />
+        <activity android:name=".gAnand7" />
+        <activity android:name=".gAnand6" />
+        <activity android:name=".gAnand5" />
+        <activity android:name=".gAnand4" />
+        <activity android:name=".gAnand3" />
+        <activity android:name=".gAnand2" />
+        <activity android:name=".gAnand1" />
+        <activity android:name=".bAnand12" />
+        <activity android:name=".bAnand11" />
+        <activity android:name=".bAnand10" />
+        <activity android:name=".bAnand9" />
+        <activity android:name=".bAnand8" />
+        <activity android:name=".bAnand7" />
+        <activity android:name=".bAnand6" />
+        <activity android:name=".bAnand5" />
+        <activity android:name=".bAnand4" />
+        <activity android:name=".bAnand3" />
+        <activity android:name=".bAnand2" />
+        <activity android:name=".bAnand1" />
+        <activity android:name=".gChanga" />
+        <activity android:name=".bChanga7" />
+        <activity android:name=".bChanga6" />
+        <activity android:name=".bChanga5" />
+        <activity android:name=".bChanga4" />
+        <activity android:name=".bChanga3" />
+        <activity android:name=".bChanga2" />
+        <activity android:name=".bChanga1" />
+        <activity android:name=".signing" />
+        <activity android:name=".gNadiad5" />
+        <activity android:name=".gNadiad4" />
+        <activity android:name=".gNadiad3" />
+        <activity android:name=".gNadiad2" />
+        <activity android:name=".gNadiad1" />
+        <activity android:name=".tavSec" />
+        <activity android:name=".bNadiad6" />
+        <activity android:name=".bNadiad5" />
+        <activity android:name=".bNadiad4" />
+        <activity android:name=".bNadiad3" />
+        <activity android:name=".bNadiad2" />
+        <activity android:name=".bNadiad1" />
+        <activity android:name=".tav7" />
+        <activity android:name=".tav6" />
+        <activity android:name=".tav5" />
+        <activity android:name=".tav4" />
+        <activity android:name=".tav3" />
+        <activity android:name=".tavFirst" />
+        <activity android:name=".tavMain" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightwhite"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".tavMain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_cancel_black_24dp"
+            android:elevation="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:text="Log in"
+            android:textColor="@color/blackcolor"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text="Create Your \n   Account"
+        android:textColor="@color/blackcolor"
+        android:textSize="25dp"
+        android:layout_marginBottom="30sp"
+        android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/fullName"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Full name"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite" />
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite" />
+
+        <EditText
+            android:id="@+id/phNo"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Phone number"
+            android:inputType="phone"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn"
+            android:elevation="5dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="@color/fullwhite" />
+        
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="45dp"
+            android:id="@+id/joinus"
+            android:text="Join us"
+            android:textColor="@color/whitecolor"
+            android:textAllCaps="false"
+            android:layout_marginTop="25dp"
+            android:elevation="5dp"
+            android:background="@drawable/joinbtn"/>
+        
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="By pressing 'Join us' you agree to our terms and conditions"
+            android:textColor="@color/fullwhite"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/tvSign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Log In"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"/>
+
+    </LinearLayout>
+</LinearLayout>
